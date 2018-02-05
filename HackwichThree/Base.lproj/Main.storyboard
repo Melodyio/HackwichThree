@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wHW-Lq-iei">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -44,7 +44,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L8V-PC-uF1">
-                                <rect key="frame" x="166" y="206" width="42" height="21"/>
+                                <rect key="frame" x="166" y="223" width="42" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -55,6 +55,9 @@
                         <viewLayoutGuide key="safeArea" id="TM0-14-KrO"/>
                     </view>
                     <navigationItem key="navigationItem" id="qGO-AJ-IWM"/>
+                    <connections>
+                        <outlet property="firstLabel" destination="L8V-PC-uF1" id="BhP-Tg-lry"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yho-LE-AWS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -82,7 +85,7 @@
         <scene sceneID="TZL-Fk-q7c">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ant-o5-4mw" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" id="3RI-Fd-J1O"/>
+                    <tabBarItem key="tabBarItem" title="Item 1" image="about" id="3RI-Fd-J1O"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="o4Y-AV-OSy">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -117,4 +120,7 @@
             <point key="canvasLocation" x="142.40000000000001" y="143.92803598200899"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="about" width="30" height="30"/>
+    </resources>
 </document>
