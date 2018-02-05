@@ -14,6 +14,7 @@
 		7FBC86902028EAA800101E85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FBC868E2028EAA800101E85 /* LaunchScreen.storyboard */; };
 		7FBC869B2028EAA800101E85 /* HackwichThreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBC869A2028EAA800101E85 /* HackwichThreeTests.swift */; };
 		7FBC86A62028EAA800101E85 /* HackwichThreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBC86A52028EAA800101E85 /* HackwichThreeUITests.swift */; };
+		7FBC86B42028F25C00101E85 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBC86B32028F25C00101E85 /* ViewControllerTwo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7FBC86A12028EAA800101E85 /* HackwichThreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackwichThreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FBC86A52028EAA800101E85 /* HackwichThreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwichThreeUITests.swift; sourceTree = "<group>"; };
 		7FBC86A72028EAA800101E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FBC86B32028F25C00101E85 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				7FBC86852028EAA800101E85 /* AppDelegate.swift */,
 				7FBC86872028EAA800101E85 /* ViewController.swift */,
 				7FBC86892028EAA800101E85 /* Main.storyboard */,
+				7FBC86B32028F25C00101E85 /* ViewControllerTwo.swift */,
 				7FBC868C2028EAA800101E85 /* Assets.xcassets */,
 				7FBC868E2028EAA800101E85 /* LaunchScreen.storyboard */,
 				7FBC86912028EAA800101E85 /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				7FBC86882028EAA800101E85 /* ViewController.swift in Sources */,
 				7FBC86862028EAA800101E85 /* AppDelegate.swift in Sources */,
+				7FBC86B42028F25C00101E85 /* ViewControllerTwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
