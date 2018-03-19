@@ -15,6 +15,9 @@
 		7FBC869B2028EAA800101E85 /* HackwichThreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBC869A2028EAA800101E85 /* HackwichThreeTests.swift */; };
 		7FBC86A62028EAA800101E85 /* HackwichThreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBC86A52028EAA800101E85 /* HackwichThreeUITests.swift */; };
 		7FBC86B42028F25C00101E85 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBC86B32028F25C00101E85 /* ViewControllerTwo.swift */; };
+		F0786B05205F132500ADB5E5 /* ViewControllerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0786B04205F132500ADB5E5 /* ViewControllerThree.swift */; };
+		F0786B0A205F94C200ADB5E5 /* uhwo.png in Resources */ = {isa = PBXBuildFile; fileRef = F0786B08205F94C200ADB5E5 /* uhwo.png */; };
+		F0786B0B205F94C200ADB5E5 /* melody pic.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F0786B09205F94C200ADB5E5 /* melody pic.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		7FBC86A52028EAA800101E85 /* HackwichThreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwichThreeUITests.swift; sourceTree = "<group>"; };
 		7FBC86A72028EAA800101E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FBC86B32028F25C00101E85 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
+		F0786B04205F132500ADB5E5 /* ViewControllerThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerThree.swift; sourceTree = "<group>"; };
+		F0786B08205F94C200ADB5E5 /* uhwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = uhwo.png; path = ../../uhwo.png; sourceTree = "<group>"; };
+		F0786B09205F94C200ADB5E5 /* melody pic.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "melody pic.JPG"; path = "../../melody pic.JPG"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,12 @@
 		7FBC86842028EAA800101E85 /* HackwichThree */ = {
 			isa = PBXGroup;
 			children = (
+				F0786B09205F94C200ADB5E5 /* melody pic.JPG */,
+				F0786B08205F94C200ADB5E5 /* uhwo.png */,
 				7FBC86852028EAA800101E85 /* AppDelegate.swift */,
 				7FBC86872028EAA800101E85 /* ViewController.swift */,
 				7FBC86892028EAA800101E85 /* Main.storyboard */,
+				F0786B04205F132500ADB5E5 /* ViewControllerThree.swift */,
 				7FBC86B32028F25C00101E85 /* ViewControllerTwo.swift */,
 				7FBC868C2028EAA800101E85 /* Assets.xcassets */,
 				7FBC868E2028EAA800101E85 /* LaunchScreen.storyboard */,
@@ -237,7 +246,9 @@
 			files = (
 				7FBC86902028EAA800101E85 /* LaunchScreen.storyboard in Resources */,
 				7FBC868D2028EAA800101E85 /* Assets.xcassets in Resources */,
+				F0786B0A205F94C200ADB5E5 /* uhwo.png in Resources */,
 				7FBC868B2028EAA800101E85 /* Main.storyboard in Resources */,
+				F0786B0B205F94C200ADB5E5 /* melody pic.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +276,7 @@
 				7FBC86882028EAA800101E85 /* ViewController.swift in Sources */,
 				7FBC86862028EAA800101E85 /* AppDelegate.swift in Sources */,
 				7FBC86B42028F25C00101E85 /* ViewControllerTwo.swift in Sources */,
+				F0786B05205F132500ADB5E5 /* ViewControllerThree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

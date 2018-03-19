@@ -10,10 +10,22 @@ import UIKit
 
 class ViewControllerTwo: UIViewController {
 
+    @IBOutlet var secondLabel: UILabel!
+    
+    
+    @IBOutlet var textField: UITextField!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+self.title = "Weather Converter"
+        
+self.secondLabel.text = ""
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,6 +34,20 @@ class ViewControllerTwo: UIViewController {
     }
     
 
+    @IBAction func convertButtonPressed(_ sender: Any) {
+        
+        if let fahrenheit = Double(textField.text!) {
+            let celsius = (fahrenheit - 32) * 5/9
+            let resultText = "Today is \(celsius) degrees celsius"
+            secondLabel.text = resultText
+            
+        }
+        
+        
+        
+    
+    }
+    
     /*
     // MARK: - Navigation
 
